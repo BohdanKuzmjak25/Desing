@@ -2,21 +2,21 @@
 
 ## Description
 
-*This is Our Graphic Design site
+* This is Our Graphic Design site
 
 ## Getting Started
 
-*https://64331a1cb205786fa9c260fe--fantastic-crostata-264b3e.netlify.app/
-*Let's end this faster
+* https://64331a1cb205786fa9c260fe--fantastic-crostata-264b3e.netlify.app/
+* Let's end this faster
 
 ## Help
 
-*Nothing will help
+* Nothing will help
 
 ## Authors
 
-*BohdanKuzmjak25
-*Kurlysh(Volodymyr Kucheriawyi)
+* BohdanKuzmjak25
+* Kurlysh(Volodymyr Kucheriawyi)
 
 ## Version History
 
@@ -25,4 +25,4 @@
 
 ## License
 
-*This project is licensed under the  License of
+* This project is licensed under the  License of
