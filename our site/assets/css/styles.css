@@ -1,13 +1,13 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 
-/*===== ПЕРЕМІНІ CSS =====*/
+/*=====  CSS =====*/
 :root{
     --header-height: 3rem;
     --font-medium: 500;
 }
 
-/*===== КОЛОРИ =====*/
+/*===== КОЛЬОРИ =====*/
 :root{
     --first-color: #000000;
     --white-color: #d00707;
@@ -15,7 +15,7 @@
     --text-color: hsl(0, 0%, 74%);
 }
 
-/*===== ШРИФТИ =====*/
+/*===== ТЕКСТ =====*/
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
@@ -32,7 +32,7 @@
     }
 }
 
-/*===== ВВІДСТУПИ =====*/
+/*===== ВІДСТУПИ =====*/
 :root{
     --mb-1: .5rem;
     --mb-2: 1rem;
@@ -40,7 +40,6 @@
     --mb-4: 2rem;
 }
 
-/*===== z ІНДЕКСИ =====*/
 :root{
     --z-fixed: 100;
 }
@@ -78,7 +77,7 @@ img{
     display: block;
 }
 
-/*===== КЛАСИ CSS ===== */
+/*===== КЛАСИ ===== */
 .section{
     padding: 3rem 0;
 }
@@ -101,7 +100,6 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== МАКЕТ =====*/
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -158,12 +156,12 @@ img{
     cursor: pointer;
 }
 
-/*=== ПОКАЗАТИ МЕНЮ===*/
+/*=== ПОКАЗАТИ МЕНЮ ===*/
 .show{
     right: 0;
 }
 
-/*мЕНЮ*/
+/*АКТИВНЕ МЕНЮ*/
 .active::after{
     position: absolute;
     content: "";
@@ -174,7 +172,7 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== ОСНОВНЕ =====*/
+/*===== ГОЛОВНА =====*/
 .home{
     position: relative;
     background-color: var(--first-color);
@@ -273,7 +271,7 @@ img{
     border-radius: .5rem;
 }
 
-/* ===== ПОРТФОЛІО =====*/
+/* ===== РОБОТИ =====*/
 .portfolio{
     background-color: var(--white-color);
 }
@@ -374,8 +372,8 @@ img{
     color: var(--first-color);
 }
 
-/* ===== ПОСИЛАННЯ =====*/
-/* For small devices */
+/* ===== ПОКАЗ =====*/
+/* ТЕЛЕФОНИ */
 @media screen and (max-width: 320px) {
   .home__img {
     width: 230px;
@@ -476,7 +474,7 @@ img{
     }
 }
 
-/* ДЛЯ ЗОБРАЖЕННЯ В МОБІЛЬНИХ*/
+/*  КОМПИ */
 @media screen and (min-height: 721px) {
     .home__container {
         height: 640px;
